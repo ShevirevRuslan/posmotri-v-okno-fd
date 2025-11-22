@@ -107,6 +107,30 @@ input {
   height: 27px;
 }
 
+.search-form__textfield::-webkit-input-placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.search-form__textfield::-moz-placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.search-form__textfield:-ms-input-placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.search-form__textfield:-o-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
 .search-form__textfield:focus {
   outline: none;
 }
